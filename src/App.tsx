@@ -9,6 +9,8 @@ import Help from './pages/Help';
 import Sitemap from './pages/Sitemap';
 import Error404 from './pages/Error404';
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Nosotros from "./pages/nosotros";
+
 
 function App() {
   return (
@@ -22,7 +24,11 @@ function App() {
             <Route path="/ayuda" element={<Help />} />
             <Route path="/mapa-sitio" element={<Sitemap />} />
             <Route path="*" element={<Error404 />} />
+            <Route path="/nosotros" element={<Nosotros />} />
             <Route path="/privacidad-politicas" element={<PrivacyPolicy/>} />
+            
+           
+            
 
           </Routes>
         </AnimatePresence>

@@ -12,6 +12,8 @@ const Navbar = () => {
     { to: '/contacto', text: 'Contáctanos', icon: Phone },
     { to: '/ayuda', text: 'Ayuda', icon: HelpCircle },
     { to: '/mapa-sitio', text: 'Mapa del Sitio', icon: Map },
+    { to: '/nosotros', text: 'Nosotros', icon: Map },
+
   ];
 
   return (
